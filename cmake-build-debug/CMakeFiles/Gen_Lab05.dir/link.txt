@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Gen_Lab05.dir/src/Customer.cpp.o CMakeFiles/Gen_Lab05.dir/src/main.cpp.o CMakeFiles/Gen_Lab05.dir/src/Movie.cpp.o  -o Gen_Lab05 

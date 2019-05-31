@@ -1,0 +1,16 @@
+/home/benjamin/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/191.7141.37/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05
+-- Downloading/updating googletest
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/cmake-build-debug/googletest-download
+Scanning dependencies of target googletest-download
+[ 11%] Skipping update step for 'googletest-download'
+[ 22%] No configure step for 'googletest-download'
+[ 33%] No build step for 'googletest-download'
+[ 44%] No install step for 'googletest-download'
+[ 55%] No test step for 'googletest-download'
+[ 66%] Completed 'googletest-download'
+[100%] Built target googletest-download
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/cmake-build-debug

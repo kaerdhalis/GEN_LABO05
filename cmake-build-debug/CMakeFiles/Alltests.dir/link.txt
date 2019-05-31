@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Alltests.dir/src/Test/test.cpp.o CMakeFiles/Alltests.dir/src/Customer.cpp.o CMakeFiles/Alltests.dir/src/Movie.cpp.o  -o Alltests lib/libgtestd.a lib/libgmock_maind.a lib/libgmockd.a lib/libgtestd.a -lpthread 

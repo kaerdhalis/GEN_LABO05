@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/cmake-build-debug/googletest-download/CMakeFiles/googletest-download"
+		},
+		{
+			"file" : "/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/cmake-build-debug/googletest-download/CMakeFiles/googletest-download.rule"
+		},
+		{
+			"file" : "/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/cmake-build-debug/googletest-download/CMakeFiles/googletest-download-complete.rule"
+		},
+		{
+			"file" : "/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/cmake-build-debug/googletest-download/googletest-download-prefix/src/googletest-download-stamp/googletest-download-install.rule"
+		},
+		{
+			"file" : "/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/cmake-build-debug/googletest-download/googletest-download-prefix/src/googletest-download-stamp/googletest-download-mkdir.rule"
+		},
+		{
+			"file" : "/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/cmake-build-debug/googletest-download/googletest-download-prefix/src/googletest-download-stamp/googletest-download-download.rule"
+		},
+		{
+			"file" : "/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/cmake-build-debug/googletest-download/googletest-download-prefix/src/googletest-download-stamp/googletest-download-patch.rule"
+		},
+		{
+			"file" : "/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/cmake-build-debug/googletest-download/googletest-download-prefix/src/googletest-download-stamp/googletest-download-configure.rule"
+		},
+		{
+			"file" : "/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/cmake-build-debug/googletest-download/googletest-download-prefix/src/googletest-download-stamp/googletest-download-build.rule"
+		},
+		{
+			"file" : "/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/cmake-build-debug/googletest-download/googletest-download-prefix/src/googletest-download-stamp/googletest-download-test.rule"
+		},
+		{
+			"file" : "/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/cmake-build-debug/googletest-download/googletest-download-prefix/src/googletest-download-stamp/googletest-download-skip-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"googletest-download"
+		],
+		"name" : "googletest-download"
+	}
+}
