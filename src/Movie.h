@@ -9,10 +9,6 @@ class Movie {
 
 public:
 
-    static const int CHILDRENS   = 2;
-    static const int REGULAR     = 0;
-    static const int NEW_RELEASE = 1;
-
     explicit Movie(const std::string& title,MoviePriceCode* priceCode);
 
     Movie(const Movie &m);
@@ -22,6 +18,11 @@ public:
     void changePriceCode(MoviePriceCode* priceCode);
 
     int getPrice() const;
+
+    double getBaseAmount() const ;
+    int getMaxDay() const ;
+    double getFeePerExpendDay() const ;
+    bool hasBonus() const ;
 
     virtual ~Movie();
 
@@ -55,6 +56,22 @@ inline void Movie::changePriceCode(MoviePriceCode* priceCode) {
 inline int Movie::getPrice() const{
 
     return priceCode->getPriceCode();
+}
+
+inline double Movie::getBaseAmount() const {
+    return priceCode->getBaseAmount();
+}
+
+inline int Movie::getMaxDay() const {
+    return priceCode->getMaxDay();
+}
+
+inline double Movie::getFeePerExpendDay() const {
+    return priceCode->getFeePerExpendDay();
+}
+
+inline bool Movie::hasBonus() const {
+    return priceCode->hasBonus();
 }
 
 inline Movie::~Movie() {

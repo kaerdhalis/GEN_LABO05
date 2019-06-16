@@ -21,6 +21,13 @@ TEST(CustomerTest,StatementTest){
 
 }
 
+TEST(MovieTest,MovieTest){
+
+    Movie m ("John Wick",new NewReleasePriceCode());
+    ASSERT_EQ(m.getTitle(),"John Wick");
+    ASSERT_EQ(m.getPrice(),NEW_RELEASE);
+}
+
 TEST(MovieTest,ChangePriceTest){
 
     Movie karatekid ("Karate Kid",new RegularPriceCode());

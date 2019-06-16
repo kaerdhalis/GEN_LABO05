@@ -10,6 +10,10 @@ class MoviePriceCode {
 public:
 
     virtual  int getPriceCode() const =0 ;
+    virtual double getBaseAmount() const = 0;
+    virtual int getMaxDay() const = 0;
+    virtual double getFeePerExpendDay() const = 0;
+    virtual bool hasBonus() const = 0;
     virtual MoviePriceCode* clonePriceCode () const = 0;
 
 };

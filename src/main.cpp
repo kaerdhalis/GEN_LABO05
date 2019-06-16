@@ -7,10 +7,6 @@
 int main() {
 
 
-    Movie karatekid ("Karate Kid",new RegularPriceCode());
-    karatekid.changePriceCode( new ChildrenPriceCode());
-
-
     Customer customer("Olivier");
     customer.addRental( Rental( Movie("Karate Kid",new RegularPriceCode()), 7));
     customer.addRental( Rental( Movie( "Avengers: Endgame",new NewReleasePriceCode() ), 5));

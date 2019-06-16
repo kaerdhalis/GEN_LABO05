@@ -18,6 +18,10 @@ public:
 private:
     std::string _name;
     std::vector< Rental > _rentals;
+
+     double determineAmountsForEachRental(const Rental& rental);
+     void showFiguresForThisRental(std::ostringstream &result, const Rental&rental, double amount) const;
+     void addFooterLines(std::ostringstream& result, double amount, int frequentRenterPoints);
 };
 
 inline Customer::Customer() {}
