@@ -5,13 +5,21 @@ CMakeFiles/Alltests.dir/src/Customer.cpp.o
  /home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/Customer.cpp
  /home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/Customer.h
  /home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/Movie.h
+ /home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/MoviePriceCode.h
+ /home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/RegularPriceCode.h
  /home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/Rental.h
 CMakeFiles/Alltests.dir/src/Movie.cpp.o
  /home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/Movie.cpp
  /home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/Movie.h
+ /home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/MoviePriceCode.h
+ /home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/RegularPriceCode.h
 CMakeFiles/Alltests.dir/src/Test/test.cpp.o
+ ../src/ChildrenPriceCode.h
  ../src/Customer.h
  ../src/Movie.h
+ ../src/MoviePriceCode.h
+ ../src/NewReleasePriceCode.h
+ ../src/RegularPriceCode.h
  ../src/Rental.h
  /home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/Test/test.cpp
  googletest-src/googletest/include/gtest/gtest-death-test.h

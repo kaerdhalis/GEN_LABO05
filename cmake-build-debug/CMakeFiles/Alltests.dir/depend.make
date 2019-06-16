@@ -4,13 +4,21 @@
 CMakeFiles/Alltests.dir/src/Customer.cpp.o: ../src/Customer.cpp
 CMakeFiles/Alltests.dir/src/Customer.cpp.o: ../src/Customer.h
 CMakeFiles/Alltests.dir/src/Customer.cpp.o: ../src/Movie.h
+CMakeFiles/Alltests.dir/src/Customer.cpp.o: ../src/MoviePriceCode.h
+CMakeFiles/Alltests.dir/src/Customer.cpp.o: ../src/RegularPriceCode.h
 CMakeFiles/Alltests.dir/src/Customer.cpp.o: ../src/Rental.h
 
 CMakeFiles/Alltests.dir/src/Movie.cpp.o: ../src/Movie.cpp
 CMakeFiles/Alltests.dir/src/Movie.cpp.o: ../src/Movie.h
+CMakeFiles/Alltests.dir/src/Movie.cpp.o: ../src/MoviePriceCode.h
+CMakeFiles/Alltests.dir/src/Movie.cpp.o: ../src/RegularPriceCode.h
 
+CMakeFiles/Alltests.dir/src/Test/test.cpp.o: ../src/ChildrenPriceCode.h
 CMakeFiles/Alltests.dir/src/Test/test.cpp.o: ../src/Customer.h
 CMakeFiles/Alltests.dir/src/Test/test.cpp.o: ../src/Movie.h
+CMakeFiles/Alltests.dir/src/Test/test.cpp.o: ../src/MoviePriceCode.h
+CMakeFiles/Alltests.dir/src/Test/test.cpp.o: ../src/NewReleasePriceCode.h
+CMakeFiles/Alltests.dir/src/Test/test.cpp.o: ../src/RegularPriceCode.h
 CMakeFiles/Alltests.dir/src/Test/test.cpp.o: ../src/Rental.h
 CMakeFiles/Alltests.dir/src/Test/test.cpp.o: ../src/Test/test.cpp
 CMakeFiles/Alltests.dir/src/Test/test.cpp.o: googletest-src/googletest/include/gtest/gtest-death-test.h

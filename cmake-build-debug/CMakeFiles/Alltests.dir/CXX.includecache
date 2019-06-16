@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../src/ChildrenPriceCode.h
+MoviePriceCode.h
+../src/MoviePriceCode.h
+
 ../src/Customer.h
 string
 -
@@ -17,6 +21,20 @@ Rental.h
 ../src/Movie.h
 string
 -
+MoviePriceCode.h
+../src/MoviePriceCode.h
+RegularPriceCode.h
+../src/RegularPriceCode.h
+
+../src/MoviePriceCode.h
+
+../src/NewReleasePriceCode.h
+MoviePriceCode.h
+../src/MoviePriceCode.h
+
+../src/RegularPriceCode.h
+MoviePriceCode.h
+../src/MoviePriceCode.h
 
 ../src/Rental.h
 Movie.h
@@ -45,12 +63,28 @@ Movie.h
 /home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/Movie.h
 string
 -
+MoviePriceCode.h
+/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/MoviePriceCode.h
+RegularPriceCode.h
+/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/RegularPriceCode.h
+
+/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/MoviePriceCode.h
+
+/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/RegularPriceCode.h
+MoviePriceCode.h
+/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/MoviePriceCode.h
 
 /home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/Rental.h
 Movie.h
 /home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/Movie.h
 
 /home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/Test/test.cpp
+NewReleasePriceCode.h
+/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/Test/NewReleasePriceCode.h
+ChildrenPriceCode.h
+/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/Test/ChildrenPriceCode.h
+Movie.h
+/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/Test/Movie.h
 gtest/gtest.h
 /home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/Test/gtest/gtest.h
 Customer.h

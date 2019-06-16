@@ -450,6 +450,9 @@
 		<Unit filename="/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/cmake-build-debug/googletest-src/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
 		</Unit>
+		<Unit filename="/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/ChildrenPriceCode.h">
+			<Option target="Gen_Lab05"/>
+		</Unit>
 		<Unit filename="/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/Customer.cpp">
 			<Option target="Gen_Lab05"/>
 			<Option target="Alltests"/>
@@ -462,6 +465,15 @@
 			<Option target="Alltests"/>
 		</Unit>
 		<Unit filename="/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/Movie.h">
+			<Option target="Gen_Lab05"/>
+		</Unit>
+		<Unit filename="/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/MoviePriceCode.h">
+			<Option target="Gen_Lab05"/>
+		</Unit>
+		<Unit filename="/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/NewReleasePriceCode.h">
+			<Option target="Alltests"/>
+		</Unit>
+		<Unit filename="/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/RegularPriceCode.h">
 			<Option target="Gen_Lab05"/>
 		</Unit>
 		<Unit filename="/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/Rental.h">

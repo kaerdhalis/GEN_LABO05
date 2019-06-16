@@ -2,37 +2,64 @@
 #ifndef MOVIE_H
 #define MOVIE_H
 #include <string>
+#include "MoviePriceCode.h"
+#include "RegularPriceCode.h"
 
 class Movie {
+
 public:
+
     static const int CHILDRENS   = 2;
     static const int REGULAR     = 0;
     static const int NEW_RELEASE = 1;
 
-    Movie( const std::string& title, int priceCode = REGULAR );
+    explicit Movie(const std::string& title,MoviePriceCode* priceCode);
 
-    int getPriceCode() const;
-    void setPriceCode( int arg );
+    Movie(const Movie &m);
+
     std::string getTitle() const;
 
+    void changePriceCode(MoviePriceCode* priceCode);
+
+    int getPrice() const;
+
+    virtual ~Movie();
+
 private:
+
     std::string _title;
-    int _priceCode;
+
+    MoviePriceCode* priceCode;
 };
+inline Movie::Movie(const std::string& title,MoviePriceCode* priceCode): _title( title ), priceCode(priceCode){
 
-inline Movie::
-Movie( const std::string& title, int priceCode )
-        : _title( title )
-        , _priceCode( priceCode )
-{}
+}
 
-inline int Movie::
-getPriceCode() const { return _priceCode; }
+inline Movie::Movie(const Movie &m) :_title(m._title) {
 
-inline void Movie::
-setPriceCode( int arg ) { _priceCode = arg; }
+    priceCode = m.priceCode->clonePriceCode();
 
-inline std::string Movie::
-getTitle() const { return _title; }
+}
+
+inline std::string Movie::getTitle() const {
+    return _title;
+}
+
+inline void Movie::changePriceCode(MoviePriceCode* priceCode) {
+
+    delete this->priceCode;
+    this->priceCode = priceCode;
+
+}
+
+inline int Movie::getPrice() const{
+
+    return priceCode->getPriceCode();
+}
+
+inline Movie::~Movie() {
+    delete priceCode;
+}
+
 
 #endif // MOVIE_H
