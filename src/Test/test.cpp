@@ -37,3 +37,51 @@ TEST(MovieTest,ChangePriceTest){
     ASSERT_EQ(karatekid.getPrice(),CHILDRENS);
 
 }
+
+TEST(MoviePriceCodeTest,regularPriceTest){
+
+    MoviePriceCode* test = new RegularPriceCode();
+    ASSERT_EQ(test->getPriceCode(),REGULAR);
+
+    MoviePriceCode* testclone = test->clonePriceCode();
+
+    ASSERT_EQ(test->getPriceCode(),testclone->getPriceCode());
+    ASSERT_EQ(test->getFeePerExpendDay(),testclone->getFeePerExpendDay());
+    ASSERT_EQ(test->getMaxDay(),testclone->getMaxDay());
+    ASSERT_EQ(test->getBaseAmount(),testclone->getBaseAmount());
+
+    delete test, testclone;
+
+}
+
+TEST(MoviePriceCodeTest,ChildrenPriceTest){
+
+    MoviePriceCode* test = new ChildrenPriceCode();
+    ASSERT_EQ(test->getPriceCode(),CHILDRENS);
+
+    MoviePriceCode* testclone = test->clonePriceCode();
+
+    ASSERT_EQ(test->getPriceCode(),testclone->getPriceCode());
+    ASSERT_EQ(test->getFeePerExpendDay(),testclone->getFeePerExpendDay());
+    ASSERT_EQ(test->getMaxDay(),testclone->getMaxDay());
+    ASSERT_EQ(test->getBaseAmount(),testclone->getBaseAmount());
+
+    delete test, testclone;
+
+}
+
+TEST(MoviePriceCodeTest,newReleasePriceTest){
+
+    MoviePriceCode* test = new NewReleasePriceCode();
+    ASSERT_EQ(test->getPriceCode(),NEW_RELEASE);
+
+    MoviePriceCode* testclone = test->clonePriceCode();
+
+    ASSERT_EQ(test->getPriceCode(),testclone->getPriceCode());
+    ASSERT_EQ(test->getFeePerExpendDay(),testclone->getFeePerExpendDay());
+    ASSERT_EQ(test->getMaxDay(),testclone->getMaxDay());
+    ASSERT_EQ(test->getBaseAmount(),testclone->getBaseAmount());
+
+    delete test, testclone;
+
+}

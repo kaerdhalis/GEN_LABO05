@@ -30,6 +30,8 @@ public:
     bool hasBonus() const override;
 
     virtual RegularPriceCode *clonePriceCode() const override;
+
+    virtual ~RegularPriceCode();
 };
 
 inline int RegularPriceCode::getPriceCode() const {
@@ -55,6 +57,10 @@ inline double RegularPriceCode::getFeePerExpendDay() const {
 
 inline bool RegularPriceCode::hasBonus() const {
     return false;
+}
+
+inline RegularPriceCode::~RegularPriceCode() {
+
 }
 
 #endif //GEN_LAB05_REGULARPRICECODE_H

@@ -639,36 +639,6 @@ src/Customer.cpp.s:
 	$(MAKE) -f CMakeFiles/Alltests.dir/build.make CMakeFiles/Alltests.dir/src/Customer.cpp.s
 .PHONY : src/Customer.cpp.s
 
-src/Movie.o: src/Movie.cpp.o
-
-.PHONY : src/Movie.o
-
-# target to build an object file
-src/Movie.cpp.o:
-	$(MAKE) -f CMakeFiles/Gen_Lab05.dir/build.make CMakeFiles/Gen_Lab05.dir/src/Movie.cpp.o
-	$(MAKE) -f CMakeFiles/Alltests.dir/build.make CMakeFiles/Alltests.dir/src/Movie.cpp.o
-.PHONY : src/Movie.cpp.o
-
-src/Movie.i: src/Movie.cpp.i
-
-.PHONY : src/Movie.i
-
-# target to preprocess a source file
-src/Movie.cpp.i:
-	$(MAKE) -f CMakeFiles/Gen_Lab05.dir/build.make CMakeFiles/Gen_Lab05.dir/src/Movie.cpp.i
-	$(MAKE) -f CMakeFiles/Alltests.dir/build.make CMakeFiles/Alltests.dir/src/Movie.cpp.i
-.PHONY : src/Movie.cpp.i
-
-src/Movie.s: src/Movie.cpp.s
-
-.PHONY : src/Movie.s
-
-# target to generate assembly for a file
-src/Movie.cpp.s:
-	$(MAKE) -f CMakeFiles/Gen_Lab05.dir/build.make CMakeFiles/Gen_Lab05.dir/src/Movie.cpp.s
-	$(MAKE) -f CMakeFiles/Alltests.dir/build.make CMakeFiles/Alltests.dir/src/Movie.cpp.s
-.PHONY : src/Movie.cpp.s
-
 src/Test/test.o: src/Test/test.cpp.o
 
 .PHONY : src/Test/test.o
@@ -773,9 +743,6 @@ help:
 	@echo "... src/Customer.o"
 	@echo "... src/Customer.i"
 	@echo "... src/Customer.s"
-	@echo "... src/Movie.o"
-	@echo "... src/Movie.i"
-	@echo "... src/Movie.s"
 	@echo "... src/Test/test.o"
 	@echo "... src/Test/test.i"
 	@echo "... src/Test/test.s"

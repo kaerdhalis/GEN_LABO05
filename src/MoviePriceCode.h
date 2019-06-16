@@ -16,6 +16,7 @@ public:
     virtual bool hasBonus() const = 0;
     virtual MoviePriceCode* clonePriceCode () const = 0;
 
+    virtual ~MoviePriceCode() {}
 };
 
 

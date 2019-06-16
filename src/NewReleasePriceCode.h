@@ -31,6 +31,8 @@ public:
     bool hasBonus() const override;
 
     virtual NewReleasePriceCode *clonePriceCode() const override;
+
+    virtual ~NewReleasePriceCode();
 };
 
 inline int NewReleasePriceCode::getPriceCode() const {
@@ -56,6 +58,10 @@ inline double NewReleasePriceCode::getFeePerExpendDay() const {
 
 inline bool NewReleasePriceCode::hasBonus() const {
     return true;
+}
+
+inline NewReleasePriceCode::~NewReleasePriceCode() {
+
 }
 
 #endif //GEN_LAB05_NEWRELEASEPRICECODE_H

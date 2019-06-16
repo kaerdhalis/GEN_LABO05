@@ -460,10 +460,6 @@
 		<Unit filename="/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/Customer.h">
 			<Option target="Gen_Lab05"/>
 		</Unit>
-		<Unit filename="/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/Movie.cpp">
-			<Option target="Gen_Lab05"/>
-			<Option target="Alltests"/>
-		</Unit>
 		<Unit filename="/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/Movie.h">
 			<Option target="Gen_Lab05"/>
 		</Unit>
@@ -478,6 +474,9 @@
 		</Unit>
 		<Unit filename="/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/Rental.h">
 			<Option target="Gen_Lab05"/>
+		</Unit>
+		<Unit filename="/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/Test/mock_Movieprice.h">
+			<Option target="Alltests"/>
 		</Unit>
 		<Unit filename="/home/benjamin/Documents/HEIG/bachelor_4/gen/GEN_LABO05/src/Test/test.cpp">
 			<Option target="Alltests"/>

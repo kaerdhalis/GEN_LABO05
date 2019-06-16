@@ -15,6 +15,8 @@ public:
     std::string getName() const;
     std::string statement();
 
+    virtual ~Customer();
+
 private:
     std::string _name;
     std::vector< Rental > _rentals;

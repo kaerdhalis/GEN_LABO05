@@ -28,6 +28,8 @@ public:
     bool hasBonus() const override;
 
     virtual ChildrenPriceCode *clonePriceCode() const override;
+
+    virtual ~ChildrenPriceCode();
 };
 
 inline int ChildrenPriceCode::getPriceCode() const {
@@ -54,6 +56,10 @@ inline double ChildrenPriceCode::getFeePerExpendDay() const {
 
 inline bool ChildrenPriceCode::hasBonus() const {
     return false;
+}
+
+inline ChildrenPriceCode::~ChildrenPriceCode() {
+
 }
 
 

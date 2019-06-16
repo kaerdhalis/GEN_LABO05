@@ -52,3 +52,7 @@ void Customer::addFooterLines(std::ostringstream& result, double amount, int fre
            << "You earned " << frequentRenterPoints
            << " frequent renter points";
 }
+
+Customer::~Customer() {
+
+}
